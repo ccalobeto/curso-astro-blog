@@ -10,8 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.4",
-    "astro": "^4.0.7",
-    "typescript": "^5.3.3"
+    "@astrojs/check": "0.3.4",
+    "astro": "4.0.7",
+    "astro-icon": "^1.0.0",
+    "postcss": "^8.4.32",
+    "postcss-preset-env": "^9.3.0",
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
   }
 }
