@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@astrojs/check": "0.3.4",
-    "astro": "4.0.7",
-    "astro-icon": "^1.0.0",
+    "astro": "4.4.9",
+    "astro-icon": "1.1.0",
     "postcss": "^8.4.32",
     "postcss-preset-env": "^9.3.0",
     "typescript": "5.3.3"
