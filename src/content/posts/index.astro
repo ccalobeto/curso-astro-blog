@@ -6,8 +6,8 @@ const allPosts = await Astro.glob("./*.md");
 const formattedPosts = formatBlogPosts(allPosts, {
   filterOutDrafts: false,
   filterOutFuturePosts: true,
-  sortByDate: false,
-  limit: 2,
+  sortByDate: true,
+  limit: 5,
 });
 ---
 
