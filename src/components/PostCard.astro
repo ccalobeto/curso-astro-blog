@@ -16,7 +16,14 @@ const { title, description, category, author, image, date } = post.data;
   <div>
     <h2>{title}</h2>
     <div class="meta">
-      <Image src={image.src} alt={image.alt} width="25" height="100" />
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width="400"
+        height="250"
+        format="webp"
+        quality={80}
+      />
       <p>{author}</p>
       <time datetime={date.toISOString()}
         >{

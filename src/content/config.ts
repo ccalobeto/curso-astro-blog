@@ -5,7 +5,6 @@ import { z, defineCollection } from "astro:content";
 const blogCollection = defineCollection({
   type: 'content',
   schema: z.object({
-    layout: z.string(),
     title: z.string(),
     date: z.date(),
     author: z.string().default('Anonymus'),
