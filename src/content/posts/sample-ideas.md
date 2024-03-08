@@ -9,10 +9,6 @@ image: {
 description: Sometimes you just run out of ideas for sample blog posts. It’s no one’s fault, it’s just the way it is.
 isDraft: false
 category: General
-redirect: {
-  url: "https://ccalobeto.github.io/cobertura_internet/",
-  timing: null
-}
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.

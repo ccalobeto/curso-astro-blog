@@ -9,10 +9,6 @@ image: {
 description: This is a blog post about the JavaScript programming language. Like it, love it, hate it, it's here to stay.
 isDraft: false
 category: Reference Docs
-redirect: {
-  url: "https://ccalobeto.github.io/cobertura_internet/",
-  timing: null
-}
 ---
 
 Nisi duis ex aliqua eu officia eiusmod duis magna pariatur. Irure laborum qui aliqua nulla esse cillum laborum aliquip nulla elit. Id id Lorem duis irure cillum culpa. Nulla sint et aliqua velit do. Nulla sit sit proident consectetur enim ullamco aliqua in reprehenderit ullamco officia.
