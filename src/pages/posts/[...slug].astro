@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { CollectionEntry, getCollection } from "astro:content";
 import MarkdownWrapper from "../../layouts/MarkdownWrapper.astro";
 
@@ -16,8 +17,28 @@ type Props = {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
+const { title, description, category, author, image, date } = entry.data;
 ---
 
 <MarkdownWrapper frontmatter={entry.data}>
+  <div class="meta">
+    <Image
+      src={image.src}
+      alt={image.alt}
+      width="400"
+      height="250"
+      format="webp"
+      quality={80}
+    />
+    <p>{author}</p>
+    <time datetime={date.toISOString()}
+      >{
+        date.toLocaleDateString(undefined, {
+          dateStyle: "medium",
+          timeZone: "UTC",
+        })
+      }</time
+    >
+  </div>
   <Content />
 </MarkdownWrapper>
