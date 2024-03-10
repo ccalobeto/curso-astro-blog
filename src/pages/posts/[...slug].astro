@@ -17,7 +17,8 @@ type Props = {
 
 const { entry } = Astro.props;
 const { Content } = await entry.render();
-const { title, description, category, author, image, date } = entry.data;
+const { title, description, category, author, image, date, redirect } =
+  entry.data;
 ---
 
 <MarkdownWrapper frontmatter={entry.data}>
@@ -30,6 +31,7 @@ const { title, description, category, author, image, date } = entry.data;
       format="webp"
       quality={80}
     />
+    <a href={redirect.url}>View the visualization</a>
     <p>{author}</p>
     <time datetime={date.toISOString()}
       >{
